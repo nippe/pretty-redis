@@ -17,5 +17,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/poying/pretty-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/poying/pretty-redis/issues"
+  },
+  "homepage": "https://github.com/poying/pretty-redis"
 }
