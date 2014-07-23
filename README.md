@@ -7,7 +7,7 @@ A simple and beautiful cli client for redis.
 $ npm i -g pretty-redis
 ```
 
-![screencast](./screencast.gif)
+![screencast](https://raw.githubusercontent.com/poying/pretty-redis/master/screencast.gif)
 
 ## License
 
