@@ -1,0 +1,21 @@
+{
+  "name": "pretty-redis",
+  "version": "0.0.0",
+  "main": "lib/pretty-redis.js",
+  "bin": {
+    "pretty-redis": "bin/pretty-redis.js"
+  },
+  "dependencies": {
+    "native-or-bluebird": "^1.0.0",
+    "js-beautify": "^1.5.1",
+    "chalk": "^0.5.1",
+    "nopt": "^3.0.1",
+    "redis": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
+  "license": "MIT"
+}
