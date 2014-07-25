@@ -20,14 +20,16 @@ if (parsed.help) {
   console.log();
   console.log('  %s %s', '--help, -h\t', 'redis host name');
   console.log('  %s %s', '--port, -p\t', 'redis port number');
+  console.log('  %s %s', '--auth, -a\t', 'redis auth key');
   console.log();
   process.exit();
 }
 
 var host = parsed.host || '127.0.0.1';
 var port = parsed.port || 6379;
+var auth = parsed.auth;
 
-prettyRedis = prettyRedis(port, host);
+prettyRedis = prettyRedis(port, host, auth);
 
 repl = repl();
 
